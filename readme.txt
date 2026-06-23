@@ -31,3 +31,10 @@ AZURE service: "test-tb-001"
     сервис получает его парменты обрабатывае  в pytho code -> 
     отправляет его боту ->
     бот отправляет в телеграм сообщение типа : mesage id:#### - processed
+
+замечания по  DevOps:
+
+    Код пишем локально в VS Code integrated with Git repo - https://github.com/peisakhovich/tb_v5
+     
+    В  AZURE service: "test-tb-001" деплою "вручную" не используя CI/CD опыт показывает так меньше проблем 
+    с зависанием сбойных версий кода  и больше контроля. 
